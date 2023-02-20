@@ -9,13 +9,16 @@ const Navbar = () => {
     }
     return (
         <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+            <div className="cursor-pointer">
             <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Sathithya Yogi MP 🧘🏽</h1>
-            <ul className='md:flex hidden'>
+            <h3>Do What Excites 🤟🏼</h3>
+            </div>
+            {/* <ul className='md:flex hidden'>
                 <li className='p-4'>Home 🏡</li>
                 <li className='p-4'>Find Me 🌎</li>
                 <li className='p-4'>Things I ❤️</li>
-            </ul>
-            <div onClick={handleNav} className='block md:hidden'>
+            </ul> */}
+            {/* <div onClick={handleNav} className='block md:hidden'>
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
             <div className={nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500" : 'fixed left-[-100%] ease-in-out duration-500'}>
@@ -24,9 +27,8 @@ const Navbar = () => {
                     <li className='p-4 border-b border-gray-600'>Home</li>
                     <li className='p-4 border-b border-gray-600'>Find Me 🌎</li>
                     <li className='p-4 border-b border-gray-600'>Things I ❤️</li>
-
                 </ul>
-            </div>
+            </div> */}
         </div>
     )
 }

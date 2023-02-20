@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaLinkedinIn, FaMedium, FaSpotify, FaYoutube, FaMediumM } from 'react-icons/fa';
+import { FaLinkedinIn, FaSpotify, FaYoutube, FaMediumM, FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -7,16 +7,31 @@ const Footer = () => {
             <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
                 <div>
                     <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
-                    <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+                    <p className='py-4'>Subscribe on Medium</p>
+                    <button onClick={()=>{
+                        window.open('https://medium.com/@sathithyayogi/subscribe')
+                    }} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Subscribe on Medium</button>
+
                     <div className='flex justify-between md:w-[75%] my-6'>
-                        <FaLinkedinIn size={30} />
-                        <FaMedium size={30} />
-                        <FaSpotify size={30} />
-                        <FaYoutube size={30} />
-                        <FaMediumM size={30} />
+                        <a target='_blank' href="https://www.linkedin.com/in/sathithyayogi/" rel='noreferrer'>
+                            <FaLinkedinIn className='hover:text-[#00df9a] cursor-pointer' size={30} />
+                        </a>
+                        <a target='_blank' href="https://open.spotify.com/show/192VKMHm0FW5Bp25j8yJA6?si=b33c0df532e94ce3" rel='noreferrer'>
+                            <FaSpotify className='hover:text-[#00df9a] cursor-pointer' size={30} />
+                        </a>
+                        <a target='_blank' href="https://www.youtube.com/channel/UCVGsU7jQW0xQV4EACQfa3oA" rel='noreferrer'>
+                            <FaYoutube className='hover:text-[#00df9a] cursor-pointer' size={30} />
+                        </a>
+                        <a target='_blank' href="https://medium.com/@sathithyayogi" rel='noreferrer'>
+                            <FaMediumM className='hover:text-[#00df9a] cursor-pointer' size={30} />
+                        </a>
+                        <a target='_blank' href="https://github.com/sathithyayogi" rel='noreferrer'>
+                            <FaGithub className='hover:text-[#00df9a] cursor-pointer' size={30} />
+                        </a>
+
                     </div>
                 </div>
-                <div className='lg:col-span-2 flex justify-between mt-6'>
+                {/* <div className='lg:col-span-2 flex justify-between mt-6'>
                     <div>
                         <h6 className='font-medium text-gray-400'>Solutions</h6>
                         <ul>
@@ -53,13 +68,13 @@ const Footer = () => {
                             <li className='py-2 text-sm'>Terms</li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
+            </div>
+            <div className="max-w-[1240px] mx-auto grid grid-flow-col auto-cols-max m-2">
+                <p className='text-white'>Powered By </p> <br />
+                <Link className='text-[#00df9a] uppercase font-bold cursor-pointer' to={"/tech-stack"}>&nbsp; Tech Stack</Link>
             </div>
 
-            <div className="grid grid-flow-col auto-cols-max m-2">
-                <p className='text-white'>Powered By </p> <br />
-                <p className='text-[#00df9a] uppercase font-bold cursor-pointer'>&nbsp; Tech Stack</p>
-            </div>
         </>
     )
 }

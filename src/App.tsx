@@ -1,19 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import About from './components/About'
-import Footer from './components/Footer'
-import { Hero } from './components/Hero'
-import Navbar from './components/Navbar'
+import { Route, Routes } from "react-router-dom";
+import Home from './pages/Home';
+import Techstack from './pages/Techstack';
+;
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <About />
-      <Footer />
+         <Routes>
+         <Route path='/' element={<Home />} />
+         <Route path='/tech-stack' element={<Techstack />} />
+      </Routes>
     </div>
   )
 }
