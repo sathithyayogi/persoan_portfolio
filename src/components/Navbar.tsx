@@ -13,6 +13,7 @@ const Navbar = () => {
             <ul className='md:flex hidden'>
                 <li className='p-4'>Home 🏡</li>
                 <li className='p-4'>Find Me 🌎</li>
+                <li className='p-4'>Things I ❤️</li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -22,6 +23,8 @@ const Navbar = () => {
                 <ul className='p-4 uppercase'>
                     <li className='p-4 border-b border-gray-600'>Home</li>
                     <li className='p-4 border-b border-gray-600'>Find Me 🌎</li>
+                    <li className='p-4 border-b border-gray-600'>Things I ❤️</li>
+
                 </ul>
             </div>
         </div>

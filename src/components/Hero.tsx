@@ -16,7 +16,7 @@ export const Hero = () => {
                         backSpeed={140}
                     />
                 </div>
-                <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics for 'BTB', 'BTC', 'SASS' your SASS Platform</p>
+                <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your data About for 'BTB', 'BTC', 'SASS' your SASS Platform</p>
                 <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
             </div>
         </div>

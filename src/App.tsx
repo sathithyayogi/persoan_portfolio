@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import Analytics from './components/Analytics'
+import About from './components/About'
+import Footer from './components/Footer'
 import { Hero } from './components/Hero'
 import Navbar from './components/Navbar'
 
@@ -9,9 +10,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
-      <Hero/>
-      <Analytics/>
+      <Navbar />
+      <Hero />
+      <About />
+      <Footer />
     </div>
   )
 }
