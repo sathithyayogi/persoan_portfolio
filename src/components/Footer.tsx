@@ -6,8 +6,8 @@ const Footer = () => {
         <>
             <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
                 <div>
-                    <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
-                    <p className='py-4'>Subscribe on Medium</p>
+                    {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
+                    <p className=''>Weekly blogs on Javascript, Frameworks and Interview</p>
                     <button onClick={()=>{
                         window.open('https://medium.com/@sathithyayogi/subscribe')
                     }} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Subscribe on Medium</button>

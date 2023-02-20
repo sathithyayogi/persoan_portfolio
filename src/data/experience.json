@@ -1,0 +1,46 @@
+[
+    {
+        "companyName": "Zorp",
+        "companyDescription": "No Code App Building Platform - SASS Platform",
+        "hq": "Banglore",
+        "companyURL": "https://www.zorp.one",
+        "tenure": "Sep 2022 - Preset",
+        "role": "Working as a SDE ll",
+        "roleDescription": "Working in React JS, Node JS along with Mongo DB.",
+        "projects": [
+            {}
+        ]
+    },
+    {
+        "companyName": "GoGoSoon Private Limited",
+        "companyDescription": "Software development Company",
+        "hq": "Chennai",
+        "companyURL": "https://www.zorp.one",
+        "tenure": "Sep 2022 - Preset",
+        "role": "Working as a SDE ll",
+        "roleDescription": "Working in React JS, Node JS along with Mongo DB.",
+        "projects": [
+            {}
+        ]
+    },
+    {
+        "companyName": "GoGoSoon Private Limited",
+        "companyDescription": "Software development Company",
+        "hq": "Chennai",
+        "companyURL": "https://www.zorp.one",
+        "tenure": "Sep 2022 - Preset",
+        "role": "Working as a SDE ll",
+        "roleDescription": "Working in React JS, Node JS along with Mongo DB.",
+        "projects": [
+            {
+                "name":"Reke"
+            },
+            {
+                "name":"Mazata"
+            },
+            {
+                "name":"checkin app"
+            }
+        ]
+    }
+]
