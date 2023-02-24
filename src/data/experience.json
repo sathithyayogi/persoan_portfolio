@@ -2,44 +2,69 @@
     {
         "companyName": "Zorp",
         "companyDescription": "No Code App Building Platform - SASS Platform",
-        "hq": "Banglore",
+        "hq": "Bengaluru, Karnataka, IndiaBengaluru",
         "companyURL": "https://www.zorp.one",
-        "tenure": "Sep 2022 - Preset",
+        "tenure": "Sep 2022 - Present · 6 mos",
         "role": "Working as a SDE ll",
         "roleDescription": "Working in React JS, Node JS along with Mongo DB.",
-        "projects": [
-            {}
-        ]
+        "projects": []
     },
     {
         "companyName": "GoGoSoon Private Limited",
-        "companyDescription": "Software development Company",
-        "hq": "Chennai",
-        "companyURL": "https://www.zorp.one",
-        "tenure": "Sep 2022 - Preset",
-        "role": "Working as a SDE ll",
-        "roleDescription": "Working in React JS, Node JS along with Mongo DB.",
-        "projects": [
-            {}
-        ]
+        "companyDescription": "Software development Service Company",
+        "hq": "Chennai, Tamil Nadu, IndiaChennai",
+        "companyURL": "https://www.gogosoon.com/",
+        "tenure": "Jul 2021 - Aug 2022 · 1 yr 2 mos",
+        "role": "Full Stack Developer",
+        "roleDescription": "Worked in React Native",
+        "projects": []
     },
     {
-        "companyName": "GoGoSoon Private Limited",
-        "companyDescription": "Software development Company",
+        "companyName": "Spearfox",
+        "companyDescription": "Software development Service Company",
         "hq": "Chennai",
         "companyURL": "https://www.zorp.one",
-        "tenure": "Sep 2022 - Preset",
-        "role": "Working as a SDE ll",
-        "roleDescription": "Working in React JS, Node JS along with Mongo DB.",
+        "tenure": "Mar 2019 - Jul 2021 · 2 yrs 5 mosMar",
+        "role": "Full Time Internship",
+        "roleDescription": "worked in Native Android Mobile App from scratch in android studio with java, and worked in JavaScript frameworks like React, node js , Ionic for Hybrid App development (angular) with MySQL database and developed api for web projects and apps",
         "projects": [
             {
-                "name":"Reke"
+                "name": "Reke",
+                "description": "Reke India, The Brand of Cab Service provides Outstation Taxi service and One way cabs. Book call Taxi online at best fare in India.",
+                "stack": [
+                    "PHP",
+                    "Laravel",
+                    "Android Studio",
+                    "Java"
+                ]
             },
             {
-                "name":"Mazata"
+                "name": "Mazata",
+                "description": "Custom Clothing store",
+                "stack": [
+                    "TypeScript",
+                    "Angular",
+                    "React",
+                    "MYSQL"
+                ],
+                "url": [
+                    {
+                        "appUrl": "https://play.google.com/store/apps/details?id=in.mazata.user",
+                        "appDescription": ""
+                    },
+                    {
+                        "appUrl": "https://play.google.com/store/apps/details?id=in.mazata.designer",
+                        "appDescription": ""
+                    }
+                ]
             },
             {
-                "name":"checkin app"
+                "name": "Check-In Check-Out App",
+                "description": "",
+                "stack": [
+                    "Java",
+                    "Android Studio"
+                ]
             }
         ]
     }
