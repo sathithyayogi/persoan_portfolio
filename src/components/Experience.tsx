@@ -42,7 +42,7 @@ const Experience = () => {
                                                                         <p className='text-base'>{projectData?.description}</p>
 
                                                                         {
-                                                                            projectData.url && projectData.url.map((projectUrl) => {
+                                                                            projectData.url.map((projectUrl) => {
                                                                                 return (
                                                                                     <>
                                                                                         <p>{projectUrl?.name}</p>
