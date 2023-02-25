@@ -7,7 +7,13 @@
         "tenure": "Sep 2022 - Present · 6 mos",
         "role": "Working as a SDE ll",
         "roleDescription": "Working in React JS, Node JS along with Mongo DB.",
-        "projects": []
+        "projects": [
+            {
+                "name":"zorp",
+                "description":"Built Fast, powerful Apps for Frontline Operations 🚀",
+                "stack":[]
+            }
+        ]
     },
     {
         "companyName": "GoGoSoon Private Limited",
@@ -17,16 +23,18 @@
         "tenure": "Jul 2021 - Aug 2022 · 1 yr 2 mos",
         "role": "Full Stack Developer",
         "roleDescription": "Worked in React Native",
-        "projects": []
+        "projects": [
+           
+        ]
     },
     {
         "companyName": "Spearfox",
         "companyDescription": "Software development Service Company",
         "hq": "Chennai",
-        "companyURL": "https://www.zorp.one",
+        "companyURL": "https://spearfox.xyz",
         "tenure": "Mar 2019 - Jul 2021 · 2 yrs 5 mosMar",
         "role": "Full Time Internship",
-        "roleDescription": "worked in Native Android Mobile App from scratch in android studio with java, and worked in JavaScript frameworks like React, node js , Ionic for Hybrid App development (angular) with MySQL database and developed api for web projects and apps",
+        "roleDescription": "worked in Native Android Mobile App from scratch in android studio with java, and worked in JavaScript frameworks like React, node js , Ionic for Hybrid App development (angular) with MySQL database and developed api for web projects and apps.",
         "projects": [
             {
                 "name": "Reke",
@@ -36,11 +44,12 @@
                     "Laravel",
                     "Android Studio",
                     "Java"
-                ]
+                ],
+                "url":[]
             },
             {
                 "name": "Mazata",
-                "description": "Custom Clothing store",
+                "description": "App to connect customers to Tailors, Designers across India, Mazata offering services like Selling clothes, Tailoring services, Bidding option for custom design dress. we made apps 3 apps, where first app is for users, second app for tailors and designers and third app for tailor assistants, we made all tree apps in Ionic Angular.",
                 "stack": [
                     "TypeScript",
                     "Angular",
@@ -49,12 +58,14 @@
                 ],
                 "url": [
                     {
-                        "appUrl": "https://play.google.com/store/apps/details?id=in.mazata.user",
-                        "appDescription": ""
+                        "name": "User App",
+                        "url": "https://play.google.com/store/apps/details?id=in.mazata.user",
+                        "description": "App for users to shop, buy dresses and give dress for tailoring services and bidding their tailoring orders."
                     },
                     {
-                        "appUrl": "https://play.google.com/store/apps/details?id=in.mazata.designer",
-                        "appDescription": ""
+                        "name": "Designer App",
+                        "url": "https://play.google.com/store/apps/details?id=in.mazata.designer",
+                        "description": "App for Designers to Upload, edit products, manage, track orders and bid price for their tailoring services"
                     }
                 ]
             },
@@ -64,6 +75,19 @@
                 "stack": [
                     "Java",
                     "Android Studio"
+                ],
+                "url":[
+
+                ]
+            },{
+                "name": "Hutfresh",
+                "description": "",
+                "stack": [
+                    "Java",
+                    "Android Studio"
+                ],
+                "url":[
+
                 ]
             }
         ]

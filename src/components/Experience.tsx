@@ -12,58 +12,66 @@ const Experience = () => {
         <>
             <div className="w-full bg-white pb-16 px-4">
                 <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
-                    <h1 className='md:text-4xl sm:text-3xl text-2xl pb-8 font-bold'>Experiences and Projects</h1>
+                    <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold my-5'>Experience</h1>
                     <hr />
                     {experienceQuery.data && experienceQuery.data.map((companyData) => {
                         return (
                             <>
-                                <div className="pt-10 bg-gray-300 p-5 rounded-2xl shadow-xl mt-10">
-                                    <p className='text-[#00df9a] font-bold text-3xl cursor-pointer' onClick={() => {
+                                <div className="pt-10  p-5 rounded-2xl">
+                                    <p className='font-bold text-3xl cursor-pointer' onClick={() => {
                                         window.open(companyData.companyURL)
                                     }}>{companyData.companyName}</p>
-                                    <p className='text-black-900 font-medium'>{companyData.companyDescription}</p>
-                                    <p className='text-black-900 font-medium'>{companyData.tenure}</p>
-                                    <p>{companyData.role}
-                                        <br />
-                                        <br />
-                                        {companyData.roleDescription}
-                                    </p>
+                                    <p className='text-black-900 text-base mb-2'>{companyData.companyDescription} - {companyData.role} |  [ {companyData.tenure} ]</p>
+                 
+                                    <p className='mb-2 text-gray-500'>{companyData.roleDescription}</p>
 
                                     {
                                         companyData?.projects.length > 0 &&
                                         (
                                             <>
-                                                <h5 className='font-bold mt-1'>Projects</h5>
+                                                <h5 className='font-bold my-1 text-xl'>Products Worked</h5>
 
                                                 <ul className='ml-3'>
                                                     {
-                                                        companyData?.projects.map((projectData) => {
+                                                        companyData?.projects?.map((projectData) => {
                                                             return (
                                                                 <>
-                                                                    <p>{projectData?.name}</p>
-                                                                    <p className='ml-3'>{projectData?.description}</p>
+                                                                    <h5 className='text-lg my-3'>{projectData?.name} :</h5>
 
-                                                                    <div className="flex my-3">
+                                                                    <div className="mx-5">
+                                                                        <p className='text-base'>{projectData?.description}</p>
+
                                                                         {
-                                                                            projectData?.stack?.map((data) => {
+                                                                            projectData.url && projectData.url.map((projectUrl) => {
                                                                                 return (
                                                                                     <>
-                                                                                        <p className='px-3 mx-3 bg-red-500 rounded-md'>{data}</p>
+                                                                                        <p>{projectUrl?.name}</p>
                                                                                     </>
                                                                                 )
-
                                                                             })
                                                                         }
-                                                                    </div>
 
+                                                                        <div className="flex">
+                                                                            {
+                                                                                projectData?.stack?.map((data) => {
+                                                                                    return (
+                                                                                        <>
+                                                                                            <p className='px-3 mx-5 bg-gray-200 rounded-md'>{data}</p>
+                                                                                        </>
+                                                                                    )
+
+                                                                                })
+                                                                            }
+                                                                        </div>
+
+
+                                                                    </div>
                                                                 </>
                                                             )
 
                                                         })
                                                     }
                                                 </ul>
-
-
                                             </>
                                         )
                                     }

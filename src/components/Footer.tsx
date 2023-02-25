@@ -1,5 +1,6 @@
 import { FaLinkedinIn, FaSpotify, FaYoutube, FaMediumM, FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { SubscribeButton } from './SubscribeButton';
 
 const Footer = () => {
     return (
@@ -8,10 +9,8 @@ const Footer = () => {
                 <div>
                     {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
                     <p className=''>Weekly blogs on Javascript, Frameworks and Interview</p>
-                    <button onClick={()=>{
-                        window.open('https://medium.com/@sathithyayogi/subscribe')
-                    }} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Subscribe on Medium</button>
 
+                   <SubscribeButton/>
                     <div className='flex justify-between md:w-[75%] my-6'>
                         <a target='_blank' href="https://www.linkedin.com/in/sathithyayogi/" rel='noreferrer'>
                             <FaLinkedinIn className='hover:text-[#00df9a] cursor-pointer' size={30} />
