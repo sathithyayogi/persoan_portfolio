@@ -12,7 +12,14 @@
                 "name":"zorp",
                 "description":"Built Fast, powerful Apps for Frontline Operations 🚀",
                 "stack":[],
-                "url":[]
+                "url":[
+                    {
+                        "name": "Zorp",
+                        "url": "https://www.zorp.one/",
+                        "icon":"https://logos-world.net/wp-content/uploads/2020/12/Google-Play-Logo.png",
+                        "description": "No Code App Building - SASS Platform"
+                    }
+                ]
             }
         ]
     },
@@ -23,7 +30,7 @@
         "companyURL": "https://www.gogosoon.com/",
         "tenure": "Jul 2021 - Aug 2022 · 1 yr 2 mos",
         "role": "Full Stack Developer",
-        "roleDescription": "Worked in React Native",
+        "roleDescription": "Worked in React Native for a health care related app along with Node js, MYSQL and worked mostly in a Health Care related Legacy project in .Net , JavaScript and Mysql",
         "projects": [
            
         ]
@@ -39,14 +46,27 @@
         "projects": [
             {
                 "name": "Reke",
-                "description": "Reke India, The Brand of Cab Service provides Outstation Taxi service and One way cabs. Book call Taxi online at best fare in India.",
+                "description": "Reke India, The Brand of Cab Service provides Outstation Taxi service and One way cabs. Book call Taxi online at best fare in India. Apps are made in Android Studio and web app and admin portal are made in php and laravel",
                 "stack": [
                     "PHP",
                     "Laravel",
                     "Android Studio",
                     "Java"
                 ],
-                "url":[]
+                "url":[
+                    {
+                        "name": "User Android App",
+                        "url": "https://play.google.com/store/apps/details?id=com.rekeindia.guest",
+                        "icon":"https://logos-world.net/wp-content/uploads/2020/12/Google-Play-Logo.png",
+                        "description": "App for users to book cabs intracity, users can check price, book cab and manage their previous rides."
+                    },
+                    {
+                        "name": "Driver Android App",
+                        "url": "https://play.google.com/store/apps/details?id=com.rekeindia.vendor",
+                        "icon":"https://logos-world.net/wp-content/uploads/2020/12/Google-Play-Logo.png",
+                        "description": "App for Drivers to Add availability, bid price for their routes."
+                    }
+                ]
             },
             {
                 "name": "Mazata",
@@ -54,41 +74,64 @@
                 "stack": [
                     "TypeScript",
                     "Angular",
+                    "Ionic",
                     "React",
                     "MYSQL"
                 ],
                 "url": [
                     {
-                        "name": "User App",
+                        "name": "User Android App",
                         "url": "https://play.google.com/store/apps/details?id=in.mazata.user",
+                        "icon":"https://logos-world.net/wp-content/uploads/2020/12/Google-Play-Logo.png",
                         "description": "App for users to shop, buy dresses and give dress for tailoring services and bidding their tailoring orders."
                     },
                     {
-                        "name": "Designer App",
+                        "name": "Designer Android App",
                         "url": "https://play.google.com/store/apps/details?id=in.mazata.designer",
+                        "icon":"https://logos-world.net/wp-content/uploads/2020/12/Google-Play-Logo.png",
+                        "description": "App for Designers to Upload, edit products, manage, track orders and bid price for their tailoring services"
+                    },
+                    {
+                        "name": "User iOS App",
+                        "url": "https://apps.apple.com/tt/app/mazata/id1598781486",
+                        "icon":"https://cdn-icons-png.flaticon.com/512/831/831378.png",
                         "description": "App for Designers to Upload, edit products, manage, track orders and bid price for their tailoring services"
                     }
                 ]
             },
             {
                 "name": "Check-In Check-Out App",
-                "description": "",
+                "description": "This app is for a machinery company, where it is used by their employees, to check-in and check-out once they reached their client location for maintenance purpose, and has features like claiming reimbursements etc...",
                 "stack": [
                     "Java",
-                    "Android Studio"
+                    "Android Studio",
+                    "laravel"
                 ],
                 "url":[
 
                 ]
             },{
                 "name": "Hutfresh",
-                "description": "",
+                "description": "Hutfresh is a grocery delivery e-commerce platform which is based on Chennai Location. we developed web application in php and apps in core android in Java, we used database as MYSQL",
                 "stack": [
                     "Java",
-                    "Android Studio"
+                    "Android Studio",
+                    "php",
+                    "mysql"
                 ],
                 "url":[
-
+                    {
+                        "name": "User Web app",
+                        "url": "https://hutfresh.com/",
+                        "icon":"https://seeklogo.com/images/W/web-icon-logo-A6B586D114-seeklogo.com.png",
+                        "description": "Web app for user to shop, order and manage their orders, and order management for admin is also done using PHP"
+                    },
+                    {
+                        "name": "User Android App",
+                        "icon":"https://logos-world.net/wp-content/uploads/2020/12/Google-Play-Logo.png",
+                        "url": "https://m.apkpure.com/hutfresh/com.hutfresh.hutfresh",
+                        "description": "Android App for users to shop and order groceries"
+                    }
                 ]
             }
         ]

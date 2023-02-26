@@ -7,7 +7,7 @@ const About = () => {
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <div className="flex flex-col justify-center">
                     <p className='text-[#00df9a] font-bold'>Hi, I am Sathithya</p>
-                    <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Full Stack JS Developer</h1>
+                    <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Full Stack Developer</h1>
                     <p className='text-gray'>I am a Software developer passionate about building systems that impacts user's life.
                         <br />
                         <br />
