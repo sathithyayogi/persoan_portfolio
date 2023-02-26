@@ -1,4 +1,4 @@
-import { useQuery, useMutation } from '@tanstack/react-query';
+import { useQuery } from '@tanstack/react-query';
 import experienceData from '../data/experience.json'
 
 const Experience = () => {
@@ -8,7 +8,7 @@ const Experience = () => {
         queryFn: () => experienceData
     })
 
-    return (
+return (
         <>
             <div className="w-full bg-white pb-16 px-4">
                 <div className="max-w-[1240px] mx-auto grid md:grid-cols-1">
@@ -31,11 +31,12 @@ const Experience = () => {
                                             <>
                                                 <h5 className='font-bold my-1 text-xl'>Products Worked</h5>
 
-                                                <ul className='ml-3'>
+
                                                     {
                                                         companyData?.projects?.map((projectData) => {
                                                             return (
                                                                 <>
+                                                                <div className="">
                                                                     <h5 className='text-lg my-3'>{projectData?.name} :</h5>
 
                                                                     <div className="mx-5">
@@ -66,12 +67,13 @@ const Experience = () => {
 
 
                                                                     </div>
+                                                                </div>
                                                                 </>
                                                             )
 
                                                         })
                                                     }
-                                                </ul>
+
                                             </>
                                         )
                                     }
