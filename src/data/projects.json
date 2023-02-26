@@ -1,65 +1,90 @@
 [
     {
         "projectName": "QVS Tours and Travels",
-        "description":"",
-        "url":[
+        "description": "Qvs Tours and Travels is a ",
+        "url": [
             {
-                "name":"",
-                "url":"https://qvstravels.com/",
-                "stack":[]
+                "name": "",
+                "url": "https://qvstravels.com/",
+                "stack": [
+                    "laravel",
+                    "MYSQL"
+                ]
             }
         ]
     },
     {
-        "projectName":"StuberNote Chrome Extension",
-        "description":"",
-        "url":[
+        "projectName": "StuberNote Chrome Extension",
+        "description": "",
+        "url": [
             {
-                "name":"",
-                "url":"https://github.com/sathithyayogi/Stuber_note",
-                "stack":[]
+                "name": "",
+                "url": "https://github.com/sathithyayogi/Stuber_note",
+                "stack": [
+                    "React",
+                    "TypeScript"
+                ]
             }
         ]
     },
     {
-        "projectName":"mykeychain.in",
-        "description":"",
-        "url":[
+        "projectName": "mykeychain.in",
+        "description": "",
+        "url": [
             {
-                "name":"",
-                "url":"https://github.com/sathithyayogi/mykeychainsLaravel",
-                "stack":[]
+                "name": "",
+                "url": "https://github.com/sathithyayogi/mykeychainsLaravel",
+                "stack": [
+                    "laravel",
+                    "MYSQL",
+                    "Razaorpay"
+                ]
             }
         ]
     },
     {
-        "projectName":"IOT Dashboard",
-        "description":"",
-        "url":[
+        "projectName": "IOT Dashboard",
+        "description": "",
+        "url": [
             {
-                "name":"",
-                "url":"https://github.com/sathithyayogi/mykeychainsLaravel",
-                "stack":["vue.js", "laravel","socket.io"]
+                "name": "",
+                "url": "https://github.com/sathithyayogi/mykeychainsLaravel",
+                "stack": [
+                    "vue.js",
+                    "laravel",
+                    "socket.io",
+                    "Twilio"
+                ]
             }
         ]
     },
     {
-        "projectName":"Apartment Management System",
-        "description":"",
-        "url":[
+        "projectName": "Apartment Management System",
+        "description": "",
+        "url": [
             {
-                "name":"",
-                "url":"https://github.com/sathithyayogi/mykeychainsLaravel",
-                "stack":["vue.js", "laravel","socket.io"]
+                "name": "",
+                "url": "https://github.com/sathithyayogi/mykeychainsLaravel",
+                "stack": [
+                    "laravel"
+                ]
             },
             {
-                "name":"",
-                "url":"https://github.com/sathithyayogi/mykeychainsLaravel",
-                "stack":["vue.js", "laravel","socket.io"]
+                "name": "",
+                "url": "https://github.com/sathithyayogi/mykeychainsLaravel",
+                "stack": [
+                    "laravel"
+                ]
             }
         ]
     },
     {
-        "projectName":"Antarrtica warehouse system"
+        "projectName": "Antarrtica warehouse system",
+        "url": "",
+        "stack": [
+            "php",
+            "JavaScript",
+            "MYSQL"
+        ]
     }
 ]
