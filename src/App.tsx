@@ -9,10 +9,6 @@ function App() {
   const TRACKING_ID = 'G-QQ2LR9T5CS';
   ReactGA.initialize(TRACKING_ID);
 
-  useEffect(()=>{
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  },[])
-
 
   return (
     <div className="App">
