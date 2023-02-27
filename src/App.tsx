@@ -6,8 +6,11 @@ import { useEffect } from "react";
 
 
 function App() {
-  const TRACKING_ID = 'G-QQ2LR9T5CS';
-  ReactGA.initialize(TRACKING_ID);
+  useEffect(()=>{
+
+    const TRACKING_ID = 'G-QQ2LR9T5CS';
+    ReactGA.initialize(TRACKING_ID);
+  },[])
 
 
   return (
