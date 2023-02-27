@@ -1,7 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import Techstack from './pages/Techstack';
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
+
 import { useEffect } from "react";
 
 

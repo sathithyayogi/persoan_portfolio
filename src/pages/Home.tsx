@@ -3,7 +3,7 @@ import About from '../components/About';
 import BlogSubscribe from '../components/BlogSubscribe';
 import Experience from '../components/Experience';
 import Footer from '../components/Footer';
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 import Navbar from '../components/Navbar';
 import UnderConstruction from '../components/UnderConstruction';
 ;
@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(()=>{
 console.log(555555);
 
-    ReactGA.pageview('Main Page');
+ReactGA.send({ hitType: "pageview", page: "/tech-stack" });
   },[])
 
     return (
