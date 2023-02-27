@@ -9,24 +9,21 @@ import UnderConstruction from '../components/UnderConstruction';
 ;
 const Home = () => {
 
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: "/home" });
+  }, [])
 
-  useEffect(()=>{
-console.log(555555);
-
-ReactGA.send({ hitType: "pageview", page: "/tech-stack" });
-  },[])
-
-    return (
-        <>
-            <Navbar />
-            {/* <Hero /> */}
-            <UnderConstruction/>
-            <About />
-            <BlogSubscribe/>
-            <Experience/>
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Navbar />
+      {/* <Hero /> */}
+      <UnderConstruction />
+      <About />
+      <BlogSubscribe />
+      <Experience />
+      <Footer />
+    </>
+  )
 }
 
 export default Home
