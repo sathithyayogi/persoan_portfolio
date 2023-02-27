@@ -11,6 +11,8 @@ const Home = () => {
 
 
   useEffect(()=>{
+console.log(555555);
+
     ReactGA.pageview('Main Page');
   },[])
 
