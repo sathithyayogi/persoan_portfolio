@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import ReactGA from "react-ga4";
 import Navbar from '../components/Navbar';
 import UnderConstruction from '../components/UnderConstruction';
-;
+
 const Home = () => {
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <Navbar />
       {/* <Hero /> */}
-      <UnderConstruction />
+      {/* <UnderConstruction /> */}
       <About />
       <BlogSubscribe />
       <Experience />

@@ -1,11 +1,15 @@
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import TechStackIntro from '../components/TechStackIntro'
 
-const Techstack = () => {
+const TechStack = () => {
     return (
         <>
             <Navbar />
+            <TechStackIntro />
+            <Footer />
         </>
     )
 }
 
-export default Techstack
+export default TechStack

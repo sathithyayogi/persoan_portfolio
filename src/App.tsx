@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
-import Techstack from './pages/Techstack';
+import TechStack from './pages/TechStack';
 import ReactGA from "react-ga4";
 
 import { useEffect } from "react";
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
          <Routes>
          <Route path='/' element={<Home />} />
-         <Route path='/tech-stack' element={<Techstack />} />
+         <Route path='/tech-stack' element={<TechStack />} />
       </Routes>
     </div>
   )
