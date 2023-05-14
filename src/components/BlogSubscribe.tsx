@@ -13,7 +13,7 @@ const BlogSubscribe = () => {
                 </h1>
             </div>
             <SubscribeButton />
-            <h1 className='text-2xl flex justify-center mx-3'>ok, if you don't want to , Let be friends, you can say Hi to me in below chat box</h1>
+            {/* <h1 className='text-2xl flex justify-center mx-3'>ok, if you don't want to , Let be friends, you can say Hi to me in the chat box</h1> */}
         </div>
     )
 }

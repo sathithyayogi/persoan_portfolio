@@ -15,7 +15,7 @@ const About = () => {
                         Like to write and produce content around programming and software development. you can read my blogs and watch videos in medium and youtube.
                         <br />
                         <br />
-                        Like to work in Growth Stage startups, because <br /> <span className='font-bold'> I Don't Want Peace ✌🏼, I Want Problems  Always 💥</span> <span className='text-xs text-gray-20'>(pun intended 😉)</span> 
+                        {/* Like to work in Growth Stage startups, because <br /> <span className='font-bold'> I Don't Want Peace ✌🏼, I Want Problems  Always 💥</span> <span className='text-xs text-gray-20'>(pun intended 😉)</span>  */}
                     </p>
                     {/* <button  className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Say Hi</button> */}
                 </div>
